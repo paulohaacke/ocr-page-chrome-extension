@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+
+    "name": "Ebook Notes",
+    "author": "Paulo André Haacke",
+    "description": "Extension that allows you to recgnize the text inside each image from a web page, the output will be put in the console log. This is an open source extension, the code can be found here: https://github.com/paulohaacke/ocr-page-chrome-extension.",
+    "version": "0.1.0",
+    "version_name": "v0.1.0-alpha",
+    //"default_locale": "en",
+
+    "browser_action": {
+        "default_title": "OCR it!"
+    },
+    //"page_action": {... },
+
+    "background": {
+        "page": "background.html",
+        "persistent": false
+    },
+
+    "permissions": [
+        "tabs",
+        "<all_urls>",
+        "*://*/*"
+    ]
+}
