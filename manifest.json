@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
 
-    "name": "Ebook Notes",
+    "name": "OCR It",
     "author": "Paulo André Haacke",
     "description": "Extension that allows you to recognize the text inside each image from a web page, the output will be put in the console log. This is an open source extension, the code can be found here: https://github.com/paulohaacke/ocr-page-chrome-extension.",
     "version": "0.1.0",
